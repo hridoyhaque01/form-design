@@ -12,6 +12,7 @@
       <div class="pagination">
         <a href="float.html">float page</a>
         <a href="display.html">display page</a>
+        <a href="booleanAttr.html">boolean page</a>
       </div>
       <div class="main-content">
         <h2>Fill the form for submit.</h2>
@@ -22,19 +23,31 @@
               type="text"
               placeholder="your name..."
               class="name"
+              required
             />
             <input
               name="number"
               type="number"
               placeholder="phone number.."
               class="number"
+              required
             />
           </div>
           <div class="form-group">
-            <input name="email" type="email" placeholder="your email..." />
+            <input
+              name="email"
+              type="email"
+              placeholder="your email..."
+              required
+            />
           </div>
           <div class="form-group">
-            <input name="subject" type="text" placeholder="subject..." />
+            <input
+              name="subject"
+              type="text"
+              placeholder="subject..."
+              required
+            />
           </div>
           <div class="form-group">
             <textarea name="message" placeholder="message*"></textarea>
@@ -43,6 +56,8 @@
             <button type="submit" class="submit_btn">submit</button>
           </div>
         </form>
+
+        <br />
       </div>
     </div>
   </body>
